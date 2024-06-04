@@ -1,0 +1,46 @@
+{
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnSave": true,
+    "doxdocgen.file.copyrightTag": [
+        "---------------------------------------------------------------",
+        "@copyrght {year} Code Zeeler - platform software. All Rights Reserved"
+    ],
+    "doxdocgen.file.fileOrder": [
+        "file",
+        "copyrght",
+        "version",
+        "author",
+        "date",
+        "custom",
+    ],
+    "doxdocgen.file.customTag": [
+        "-------------------------------------------------------------------------",
+        "#Description:",
+        "@details\n",
+        "# TRACEABILITY :",
+        " -sw Requirement Document(s) :\n",
+        " -sw Design Document (s)     :\n",
+        " -Repository Path        : \n",
+        "- coding Standard (s)     :",
+        " -",
+        "-",
+        "# DEVIATIONS FROM STANDARD :\n"
+    ],
+    "doxdocgen.file.fileTemplate": "@file    {name}",
+    "doxdocgen.generic.authorTag": "@author   {author} ({email})",
+    "doxdocgen.generic.briefTemplate": "@brief {text}",
+    "doxdocgen.generic.paramTemplate": "@param {param}",
+    "doxdocgen.generic.returnTemplate": "@return {type}",
+    "doxdocgen.file.versionTag": "----------------------------------------------------------",
+    "doxdocgen.generic.dateTemplate": "# Create On\n@date    {date}",
+    "doxdocgen.generic.dateFormat": "dddd, DD MMMM, YYYY",
+    "doxdocgen.generic.useGitUserEmail": true,
+    "doxdocgen.generic.useGitUserName": true,
+    "doxdocgen.cpp.ctorText": "default constructor to create a new {name} object",
+    "doxdocgen.cpp.dtorText": "Destructor to destroy the {name} object",
+    "doxdocgen.c.firstLine": "/**",
+    "doxdocgen.c.lastLine": "*/",
+    "[cpp]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+}
