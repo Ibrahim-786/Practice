@@ -11,7 +11,7 @@ set(PRIVATE_INCLUDE_DIR ${CMAKE_CURRENT_LIST_DIR}/include)
 
 target_sources({PROJECT_NAME}
     PRIVATE
-    ${CMAKE_CURRENT_LIST_DIR}/src/PhyCommUART.cpp 
+    ${CMAKE_CURRENT_LIST_DIR}/src/PhyCommUART.cpp
 )
 
 target_link_libraries(${PROJECT_NAME} PUBLIC
